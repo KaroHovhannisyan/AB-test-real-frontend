@@ -1,0 +1,38 @@
+.tableTitle {
+    background-color: #eee;
+    border-radius: 0 5px 0 0;
+    height: 50px;
+    text-align: center;
+    font-weight: 500;
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 -1px 3px rgba(50, 50, 50, 0.75);
+    width: 100%;
+    max-width: 700px;
+    margin: 0;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    background: white;
+
+}
+.tableBody {
+    max-height: 300px;
+    max-width: 700px;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: white;
+    box-shadow: 0 -1px 3px rgba(50, 50, 50, 0.75);
+}
+.titleItem {
+    text-align: center;
+    padding: 10px;
+    background: white;
+}
+.itemRow {
+    background: white;
+}

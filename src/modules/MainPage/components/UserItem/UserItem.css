@@ -1,0 +1,16 @@
+.itemRow {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px dashed;
+    font-weight: 500;
+}
+.itemCol {
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.trItem {
+    cursor: pointer;
+}
